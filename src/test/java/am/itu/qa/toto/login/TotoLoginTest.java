@@ -1,6 +1,5 @@
 package am.itu.qa.toto.login;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import am.itu.qa.toto.base.TotoBaseTest;
 import am.itu.qa.toto.home.TotoHomePage;
@@ -39,7 +38,7 @@ public class TotoLoginTest extends TotoBaseTest {
 		Thread.sleep(3000);
 
 		System.out.println("Expected results:");
-		System.out.println("After step 4.Show Error message 'Wrong login parameters' ");
+		System.out.println("After step 5.Show Error message 'Wrong login parameters' ");
 
 	}
 	

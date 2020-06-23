@@ -6,14 +6,22 @@
 		<parameter name="emailid" value="tester456@gmail.com" />
 		<parameter name="password" value="test@123" />
 
-    	<classes>
+       <classes>
     	
-    		<class name="am.itu.qa.toto.login.TotoLoginTest" />
-    		<class name="am.itu.qa.toto.esports.TotoEsportsTest" />
-	   	    <class name="am.itu.qa.toto.language.TotoLanguageTest" />
-			<class name="am.itu.qa.toto.register.TotoRegisterTest" />
-		  	 
-        </classes>
+    	<class name="am.itu.qa.toto.idq.TotoIdqTest" />
+    	<class name="am.itu.qa.toto.esports.TotoEsportsTest" />
+    	<class name="am.itu.qa.toto.mobile.TotoMobileTest" />
+    	<class name="am.itu.qa.toto.federbet.TotoFederBetTest" />
+    	<class name="am.itu.qa.toto.digitain.TotoDigitainTest" />
+        <class name="am.itu.qa.toto.login.TotoLoginTest" />
+	    <class name="am.itu.qa.toto.language.TotoLanguageTest" />
+		<class name="am.itu.qa.toto.register.TotoRegisterTest" />
+	    <class name="am.itu.qu.deposit.TotoDepositTest" />
+    	<class name="am.itu.qa.toto.gameLogin.TotoCasinoTest" />
+    	<class name="am.itu.qa.toto.chat.TotoBannersTest" />
+    	<class name="am.itu.qa.toto.promotions.TotoPromotionsTest" />
+		
+       </classes>
 
 	</test> <!-- Test -->
 

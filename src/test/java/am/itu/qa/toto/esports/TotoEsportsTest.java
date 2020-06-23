@@ -74,7 +74,7 @@ public class TotoEsportsTest extends TotoBaseTest {
 		Assert.assertTrue(menu.menuDisplayed());
 
 	}
-	
+
 	@Test
 	public void homeTest() throws InterruptedException {
 
@@ -103,7 +103,7 @@ public class TotoEsportsTest extends TotoBaseTest {
 		Assert.assertTrue(menu.menuDisplayed());
 
 	}
-	
+
 	@Test
 	public void multiTest() throws InterruptedException {
 
