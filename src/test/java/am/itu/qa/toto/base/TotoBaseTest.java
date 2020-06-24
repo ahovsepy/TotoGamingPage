@@ -13,7 +13,7 @@ public class TotoBaseTest {
 	@BeforeClass
 	public void prepareEnv() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\Admin\\Downloads\\chromedriver_win32\\chromedriver.exe");
+				"C:\\Windows\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get(TOTO_GAMING_URL);
 		driver.manage().window().maximize();
